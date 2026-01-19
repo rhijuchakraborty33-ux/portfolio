@@ -1,0 +1,973 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top-section {
+    background-color: #C2EFD4;
+    height: 1117px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* navbar starts */
+.top {
+    background-color: #C2EFD4;
+    padding-top: 54px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu>h1:first-child {
+    color: #224F34;
+    font-size: 44px;
+    font-family: 'Elephant', serif;
+}
+
+.menu-top-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu-top-list>li {
+    display: inline-block;
+    color: #224F34;
+    padding-left: 0;
+    padding: 0 27px;
+}
+
+.menu-top-list a {
+    text-decoration: none;
+    color: #224F34;
+}
+
+.logo img {
+    margin-right: 44px;
+}
+
+.login {
+    width: 142px;
+    height: 52px;
+    border-radius: 3px;
+    border-color: #224F34;
+    background-color: #C2EFD4;
+}
+
+/* hover animation on navbar */
+.menu-top-list>li>a {
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.menu-top-list>li>a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0;
+    height: 2px;
+    background-color: #224F34;
+    transition: width 0.3s ease;
+}
+
+.menu-top-list>li>a:hover {
+    color: #1b3d2a;
+}
+
+.menu-top-list>li>a:hover::after {
+    width: 100%;
+}
+
+.logo img {
+    margin-right: 44px;
+    cursor: pointer;
+    transition:
+        transform 0.3s ease,
+        filter 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.15) rotate(-5deg);
+    filter: drop-shadow(0 6px 12px rgba(34, 79, 52, 0.3));
+}
+
+.login {
+    width: 142px;
+    height: 52px;
+    border-radius: 3px;
+    border: 2px solid #224F34;
+    background-color: #C2EFD4;
+    color: #224F34;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+/* Hover effect */
+.login:hover {
+    background-color: #224F34;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(34, 79, 52, 0.3);
+}
+
+/* Click (active) effect */
+.login:active {
+    transform: translateY(0);
+    box-shadow: 0 5px 12px rgba(34, 79, 52, 0.2);
+}
+
+/* Keyboard focus (accessibility) */
+.login:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(34, 79, 52, 0.35);
+
+
+
+}
+
+/* new navbar hover animation */
+
+
+
+
+
+/* second section container *starts/
+/* second section container */
+
+
+.top-second {
+    padding-top: 162px;
+    background-color: #C2EFD4;
+}
+
+.hero-section-right {
+    display: flex;
+    flex-direction: column;
+    width: 649px;
+}
+
+.hero-section-right>p:first-child {
+    font-size: 86px;
+    color: #1b3d2a;
+    line-height: 115%;
+}
+
+.hero-section-right>p:nth-child(2) {
+    width: 505px;
+}
+
+.explore {
+    width: 258px;
+    height: 52px;
+    ;
+    background-color: #1b3d2a;
+    color: white;
+    border: none;
+}
+
+.explore {
+    width: 258px;
+    height: 52px;
+    border-radius: 3px;
+    border: 2px solid #224F34;
+    background-color: #224F34;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+/* Hover effect */
+.explore:hover {
+    background-color: #224F34;
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(34, 79, 52, 0.3);
+}
+
+
+
+
+
+/* sellling item section starts */
+/* selling item section */
+.pad1{
+    padding-top: 114px;
+}
+.selling-items>div>p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #224F34;
+}
+
+.selling-items>div>p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #224F34;
+}
+
+.selling-items>div>p:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #224F34;
+    font-size: 64px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.card-item {
+    width: 430px;
+    height: 691px;
+    ;
+    display: flex;
+    flex-direction: column;
+    margin-right: 43px;
+
+}
+
+.card-item-2 {
+    width: 430px;
+    height: 691px;
+    ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image-background {
+    background-color: #93B9A2;
+    width: 430px;
+    border-radius: 5px;
+
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-item .card-content {
+    font-weight: 500;
+
+}
+
+.reg {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-body {
+    padding-top: 45px;
+}
+
+.image-background3 {
+    background-color: #CADCD0;
+    border-radius: 5px;
+}
+
+.image-background2 {
+    background-color: #A8D2B9;
+    border-radius: 5px;
+}
+
+.button2 {
+    padding-top: 43px;
+    display: flex;
+    justify-content: center;
+}
+
+.see-all {
+    width: 224px;
+    height: 56px;
+    color: #224F34;
+    border: 2.5px solid #224F34;
+    ;
+    outline: none;
+    box-shadow: none;
+    border-radius: 3px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+
+/* our product section starts */
+/* our producst section starts */
+
+.menu-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.card-section2 {
+    display: flex;
+    padding-top: 78px;
+    justify-content: center;
+}
+
+.selling-items>.products>p {
+    font-size: 22px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.card-item3 {
+    width: 318px;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 34px;
+
+}
+
+.buynow {
+    width: 258px;
+    height: 52px;
+    ;
+    background-color: #1b3d2a;
+    color: white;
+    border: none;
+}
+
+.buynow {
+    width: 234px;
+    height: 74px;
+    border-radius: 3px;
+    border: 2px solid #224F34;
+    background-color: #224F34;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease,
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+
+
+
+
+
+
+/* our exclusive hero section starts */
+
+.exlusive-hero-section {
+    background-color: #C2EFD4;
+    height: 596px;
+    margin-top: 305px;
+}
+
+.body-content {
+    width: 589px;
+    height: 447px;
+    padding-right: 204px;
+    ;
+}
+
+.body-content h1 {
+    font-size: 46px;
+}
+
+.body-content>p {
+    font-size: 22px;
+    color: #1b3d2a;
+    font-weight: 400;
+}
+
+
+.boxes{
+    display: flex; 
+}
+.box1 h1{
+    font-size: 32px;
+}
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; border-radius: 3px; margin-right: 31px ;
+}
+.box1 > h1{
+    font-size: 32px; color: #1b3d2a;
+}
+.box1 > p{
+    display: inline-block; color: #1b3d2a;
+}
+.body-content  > div{ padding-top: 41px;
+
+}
+
+
+/* feedback section */
+
+.feedback{
+    padding-top: 348px;
+}
+.feedback-section{
+
+    display: flex; padding-top: 110px;
+}
+.testimonial-card {
+  width: 434px;
+  background: #ffffff;
+  margin-right: 38px;
+
+  height: 254px ;
+
+  border-radius: 6px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+/* Quote Icon */
+.quote {
+  font-size: 60px;
+  color: #2f5d3f;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+/* Name */
+.name {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2f5d3f;
+  margin-bottom: 15px;
+}
+
+/* Review Text */
+.review {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.7;
+}
+
+.testimonial-card:nth-of-type(2) {
+   background-color: #C2EFD4;
+}
+
+.feedback > p{
+    display: flex; align-items: center; justify-content: center; font-size: 60px;
+    color: #224F34;
+}
+
+/* contact section starts */
+
+.contact1-section{
+    background-color: #224F34; margin-top: 358px;
+}
+
+.media h1{
+    font-size: 50px;     font-family: 'Elephant', serif; color: white;
+
+}
+.media h2{
+    color: white; font-size: 22px;
+}
+ .a{
+    height: 599px; padding-top: 80px;
+ }
+ .menu3{
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+ }
+
+ .menu3 li{
+    list-style-type: none; padding-top: 25px; 
+ }
+ .menu3 li a{
+    text-decoration: none; color: #C2EFD4;
+ }
+
+
+
+
+
+
+
+
+
+.email-box {
+    display: flex;
+    width: 520px;
+    border: 2px solid #3cff90;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.email-box input {
+    flex: 1;
+   background-color: #224F34;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 14px;
+    font-size: 16px;
+}
+
+.email-box input::placeholder {
+    color: #bbb;
+}
+
+.email-box button {
+    background: #3cff90;
+    border: none;
+    padding: 0 30px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.email-box button:hover {
+    background: #2ee67d;
+}
+
+.pad2{
+padding-top:218px
+}
+
+
+
+
+
+
+/* animations on selling items*/
+
+/* ==============================
+   CARD HOVER ANIMATION
+================================ */
+
+/* Smooth transition */
+.card-item{
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+/* Lift & shadow */
+.card-item:hover {
+    transform: translateY(-14px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+}
+
+/* Image container animation */
+.image-background {
+    overflow: hidden;
+    transition: background-color 0.4s ease;
+}
+
+/* Image zoom */
+.image-background img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+/* Zoom image on hover */
+.card-item:hover .image-background img {
+    transform: scale(1.08);
+}
+
+/* Background color enhancement */
+.card-item:hover .image-background {
+    background-color: #7fae95;
+}
+
+/* Text animation */
+.card-body {
+    transition: transform 0.4s ease;
+}
+
+/* Move text slightly up */
+.card-item:hover .card-body {
+    transform: translateY(-6px);
+}
+
+/* Content fade-in */
+.card-content {
+    opacity: 0.85;
+    transition: opacity 0.4s ease;
+}
+
+/* Strong visibility on hover */
+.card-item:hover .card-content {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+.card-item-2{
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+/* Lift & shadow */
+.card-item-2:hover {
+    transform: translateY(-14px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+}
+
+/* Image container animation */
+.image-background {
+    overflow: hidden;
+    transition: background-color 0.4s ease;
+}
+
+/* Image zoom */
+.image-background img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+/* Zoom image on hover */
+.card-item-2:hover .image-background img {
+    transform: scale(1.08);
+}
+
+/* Background color enhancement */
+.card-item-2:hover .image-background {
+    background-color: #7fae95;
+}
+
+/* Text animation */
+.card-body {
+    transition: transform 0.4s ease;
+}
+
+/* Move text slightly up */
+.card-item-2:hover .card-body {
+    transform: translateY(-6px);
+}
+
+/* Content fade-in */
+.card-content {
+    opacity: 0.85;
+    transition: opacity 0.4s ease;
+}
+
+/* Strong visibility on hover */
+.card-item-2:hover .card-content {
+    opacity: 1;
+}
+
+
+
+/* our section animation starts */
+/* =====================================
+ /* =================================
+   HOVER ANIMATION – card-item2
+================================= */
+
+/* Card lift */
+
+
+
+/* exclusive section animationn starts */
+@keyframes softFloat {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Image floating */
+.exlusive-hero-section img {
+    animation: softFloat 4.5s ease-in-out infinite;
+}
+
+/* Text content floating (slower = depth) */
+.exlusive-hero-section .body-content {
+    animation: softFloat 6s ease-in-out infinite;
+}
+
+/* Timer boxes floating with delay */
+.exlusive-hero-section .box1 {
+    animation: softFloat 5s ease-in-out infinite;
+}
+
+.exlusive-hero-section .box1:nth-child(2) {
+    animation-delay: 0.6s;
+}
+
+.exlusive-hero-section .box1:nth-child(3) {
+    animation-delay: 1.2s;
+}
+
+/* Buy Now button hover enhancement */
+.buynow:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+/* feedbacks section animaiton starts */
+/* ======================================
+   FEEDBACK SECTION – FLOAT + HOVER
+====================================== */
+
+/* Floating animation */
+@keyframes testimonialFloat {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-12px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Base card animation */
+.testimonial-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    animation: testimonialFloat 6s ease-in-out infinite;
+}
+
+/* Staggered floating for natural feel */
+.testimonial-card:nth-child(2) {
+    animation-delay: 0.8s;
+}
+
+.testimonial-card:nth-child(3) {
+    animation-delay: 1.6s;
+}
+
+/* Hover lift */
+.testimonial-card:hover {
+    transform: translateY(-18px);
+    box-shadow: 0 28px 55px rgba(0, 0, 0, 0.22);
+    animation-play-state: paused;
+}
+
+/* Quote animation */
+.quote {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.testimonial-card:hover .quote {
+    transform: scale(1.15);
+    color: #224F34;
+}
+
+/* Name slight motion */
+.name {
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover .name {
+    transform: translateX(4px);
+}
+
+/* Review smooth focus */
+.review {
+    transition: color 0.3s ease;
+}
+
+.testimonial-card:hover .review {
+    color: #333;
+}
+
+
+/* floating animation starts */
+
+
+/* Floating animation keyframes */
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Apply floating animation to cards */
+.card-item,
+.card-item-2 {
+    animation: floating 4s ease-in-out infinite;
+}
+
+/* Delay for natural floating effect */
+.card-item:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.card-item:nth-child(2) {
+    animation-delay: 0.6s;
+}
+
+.card-item-2 {
+    animation-delay: 1.2s;
+}
+
+.card-item:hover,
+.card-item-2:hover {
+    animation-play-state: paused;
+    transform: translateY(-20px) scale(1.02);
+    transition: transform 0.4s ease;
+}
+
+.image-background,
+.image-background2,
+.image-background3 {
+    transition: transform 0.4s ease;
+}
+
+
+
+/* floating hero section animation starts */
+@keyframes heroFloat {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-18px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes heroFloatSoft {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+.top-second img {
+    animation: heroFloat 4.5s ease-in-out infinite;
+}
+
+.hero-section-right {
+    animation: heroFloatSoft 5.5s ease-in-out infinite;
+}
+
+.explore {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.explore:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.hero-section-right p:first-child {
+    animation: heroFloatSoft 6s ease-in-out infinite;
+}
+
+.hero-section-right p:nth-child(2) {
+    animation: heroFloatSoft 6s ease-in-out infinite;
+    animation-delay: 0.4s;
+}
+
+
+
+
+
+/* our products animation starts */
+.card-item3,
+.card-item3-last {
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.card-item3:hover,
+.card-item3-last:hover {
+    transform: translateY(-14px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card-item3 img,
+.card-item3-last img {
+    transition: transform 0.4s ease;
+}
+
+.card-item3:hover img,
+.card-item3-last:hover img {
+    transform: scale(1.08);
+}
+
+.card-item3:hover .reg,
+.card-item3-last:hover .reg {
+    letter-spacing: 0.4px;
+    transition: letter-spacing 0.3s ease;
+}
+
+.card-item3:hover .reg,
+.card-item3-last:hover .reg {
+    letter-spacing: 0.4px;
+    transition: letter-spacing 0.3s ease;
+}
